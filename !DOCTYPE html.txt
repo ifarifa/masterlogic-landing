@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MasterLogic_ProMix Engine v6.65</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; font-family: 'Segoe UI', Tahoma, sans-serif; }
+  body { background:#0a0a0a; color:#fff; line-height:1.6; }
+  a { text-decoration:none; transition:0.3s; }
+  
+  header { text-align:center; padding:80px 20px; background:linear-gradient(135deg,#111 0%,#222 100%); }
+  h1 { font-size:3rem; color:#ffcc00; margin-bottom:10px; text-shadow: 0 0 10px #ffcc00; }
+  p { color:#ccc; margin-bottom:30px; font-size:1.2rem; }
+  .btn { display:inline-block; padding:18px 40px; font-weight:bold; border-radius:50px; background:#ffcc00; color:#000; box-shadow: 0 5px 20px rgba(255,204,0,0.5); transition:0.3s; }
+  .btn:hover { background:#00ffff; color:#000; transform:scale(1.1); box-shadow:0 10px 25px rgba(0,255,255,0.5); }
+
+  section { padding:70px 20px; }
+  h2 { font-size:2rem; color:#00ffff; margin-bottom:40px; text-align:center; }
+
+  .cards { display:flex; flex-wrap:wrap; gap:30px; justify-content:center; }
+  .card { background:#111; border-radius:15px; padding:25px; flex:1; min-width:280px; max-width:350px; text-align:center; transition: transform 0.5s, box-shadow 0.5s, background 0.5s; }
+  .card h3 { color:#ffcc00; margin-bottom:15px; font-size:1.5rem; transition: color 0.5s; }
+  .card p { color:#ccc; }
+  .card:hover { transform: translateY(-15px) scale(1.05); box-shadow:0 20px 35px rgba(0,255,255,0.4); background:#1a1a1a; }
+  .card:hover h3 { color:#00ffff; }
+
+  /* Pricing */
+  .pricing-card { border:2px solid #222; transition:0.5s; }
+  .pricing-card ul { list-style:none; padding:0; margin-bottom:20px; }
+  .pricing-card ul li { margin:10px 0; }
+  .price { font-size:2.2rem; color:#00ffff; margin-bottom:20px; }
+
+  /* CTA */
+  .cta { background:#111; border-radius:15px; padding:60px 20px; text-align:center; box-shadow:0 0 30px rgba(0,255,255,0.2); }
+  .cta h2 { color:#ffcc00; text-shadow:0 0 10px #ffcc00; }
+  .cta p { margin:20px 0; font-size:1.2rem; }
+
+  footer { text-align:center; padding:30px 20px; font-size:0.9rem; color:#888; border-top:1px solid #222; }
+
+  @media(max-width:768px) { .cards { flex-direction:column; align-items:center; } }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>MasterLogic_ProMix Engine v6.65</h1>
+  <p>Trade dengan Struktur. Kontrol Risiko. Maksimalkan Profit.</p>
+  <a href="#pricing" class="btn">Dapatkan Sekarang</a>
+</header>
+
+<section>
+  <h2>Fitur Unggulan</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>System 1 – Pure Sell</h3>
+      <p>Layered grid untuk kondisi tekanan turun. Terstruktur, otomatis, aman terhadap intervensi manual.</p>
+    </div>
+    <div class="card">
+      <h3>System 2 – Pure Buy</h3>
+      <p>Grid adaptif untuk kondisi naik. Booster lot otomatis dan proteksi trailing siap pakai.</p>
+    </div>
+    <div class="card">
+      <h3>System 3 – SMA Trend</h3>
+      <p>Trend-following dengan auto switch, smart recovery, dan switch mode fleksibel untuk profit maksimal.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Dashboard & Trade Manager</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Dashboard Modern</h3>
+      <p>Status real-time per system, floating profit, manual close counter, news monitor, dan target tracking.</p>
+    </div>
+    <div class="card">
+      <h3>News Protection</h3>
+      <p>Filter high & moderate impact, lock grid otomatis sebelum & sesudah news, proteksi volatilitas tinggi.</p>
+    </div>
+    <div class="card">
+      <h3>Trade Manager</h3>
+      <p>Kelola manual trade atau grid hybrid. Basket trailing, global stop loss, auto target profit, dan dynamic grid expansion.</p>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <h2>Harga Lisensi</h2>
+  <div class="cards">
+    <div class="card pricing-card">
+      <h3>Starter</h3>
+      <div class="price">$49</div>
+      <ul>
+        <li>1 License</li>
+        <li>System 1 & 2</li>
+        <li>Basic Dashboard</li>
+        <li>News Filter</li>
+      </ul>
+      <a href="#" class="btn">Beli Sekarang</a>
+    </div>
+    <div class="card pricing-card">
+      <h3>Pro</h3>
+      <div class="price">$99</div>
+      <ul>
+        <li>1 License</li>
+        <li>Semua System</li>
+        <li>Full Dashboard + Visual Trailing</li>
+        <li>News Protection + Lock Recovery</li>
+        <li>Trade Manager Engine 2</li>
+      </ul>
+      <a href="#" class="btn">Beli Sekarang</a>
+    </div>
+    <div class="card pricing-card">
+      <h3>Enterprise</h3>
+      <div class="price">$199</div>
+      <ul>
+        <li>Unlimited License</li>
+        <li>Semua System & Grid</li>
+        <li>Custom Dashboard + Priority Support</li>
+        <li>Advanced News & Auto Recovery</li>
+        <li>Full Trade Manager</li>
+      </ul>
+      <a href="#" class="btn">Beli Sekarang</a>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Siap Maksimalkan Trading Anda?</h2>
+  <p>Dapatkan MasterLogic_ProMix Engine v6.65 sekarang dan mulai trading dengan disiplin, struktur, dan kontrol risiko maksimal.</p>
+  <a href="#pricing" class="btn">Dapatkan Lisensi Sekarang</a>
+</section>
+
+<footer>
+  &copy; 2026 MasterLogic AI. Semua hak cipta dilindungi.
+</footer>
+
+</body>
+</html>
